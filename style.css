@@ -135,3 +135,14 @@ main {
   color: var(--clr-white);
 }
 
+.attribution {
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem;
+    font-weight: 500;
+    color: var(--clr-grey-400);
+}
+.attribution a {
+    color: var(--clr-purple-300);
+    text-decoration: none;
+}
