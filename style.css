@@ -41,3 +41,7 @@ main {
     flex-direction: column;
     gap: 2rem;
 }
+ .testimonial-author {
+    display: flex;
+    align-items: center;
+}
