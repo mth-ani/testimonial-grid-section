@@ -69,7 +69,7 @@ main {
     font-weight: 500;
 }
 .testimonial-content h2 {
-    font-size: 1.25rem;
+    font-size: clamp(1.25rem, 2vw, 1.375rem);
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: 1rem;
