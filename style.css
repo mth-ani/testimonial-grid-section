@@ -21,6 +21,7 @@ body {
     font-size: 0.8125rem;
     font-family: "Barlow Semi Condensed", sans-serif;
     line-height: 1.5;
+    background-color: var(--clr-bg);
 }
 .sr-only {
     position: absolute;
@@ -31,4 +32,12 @@ body {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+}
+main {
+    padding: 4.2rem 2rem;
+}
+.testimonials-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
